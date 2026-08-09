@@ -6,7 +6,7 @@
     "region": "NORDRHEIN-WESTFALEN",
     "lat": 50.938361,
     "lng": 6.959974,
-    "fetched": "2026-08-09T21:35:37.833478Z",
+    "fetched": "2026-08-09T21:59:14.427377Z",
     "priority": 0
   },
   {
@@ -48,5 +48,45 @@
     "lng": 6.083862,
     "fetched": "2026-08-09T21:35:37.833478Z",
     "priority": 4
+  },
+  {
+    "id": 11023,
+    "name": "MUNSTER",
+    "country": "DE",
+    "region": "NORDRHEIN-WESTFALEN",
+    "lat": 51.9625101,
+    "lng": 7.6251879,
+    "fetched": "2026-08-09T21:59:14.427377Z",
+    "priority": 5
+  },
+  {
+    "id": 11002,
+    "name": "BERLIN",
+    "country": "DE",
+    "region": "BERLIN",
+    "lat": 52.5136844,
+    "lng": 13.3939867,
+    "fetched": "2026-08-09T21:59:14.427377Z",
+    "priority": 6
+  },
+  {
+    "id": 11012,
+    "name": "HAMBURG",
+    "country": "DE",
+    "region": "HAMBURG",
+    "lat": 53.5293836,
+    "lng": 9.9868308,
+    "fetched": "2026-08-09T21:59:14.427377Z",
+    "priority": 7
+  },
+  {
+    "id": 11005,
+    "name": "BREMEN",
+    "country": "DE",
+    "region": "BREMEN",
+    "lat": 53.0758196,
+    "lng": 8.8071646,
+    "fetched": "2026-08-09T21:59:14.427377Z",
+    "priority": 8
   }
 ]
