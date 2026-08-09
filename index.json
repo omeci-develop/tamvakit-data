@@ -88,5 +88,55 @@
     "lng": 8.8071646,
     "fetched": "2026-08-09T21:59:14.427377Z",
     "priority": 8
+  },
+  {
+    "id": 11022,
+    "name": "MUNCHEN",
+    "country": "DE",
+    "region": "BAYERN",
+    "lat": 48.1371079,
+    "lng": 11.5753822,
+    "fetched": "2026-08-09T22:02:05.454397Z",
+    "priority": 9
+  },
+  {
+    "id": 11024,
+    "name": "NURNBERG",
+    "country": "DE",
+    "region": "BAYERN",
+    "lat": 49.453872,
+    "lng": 11.077298,
+    "fetched": "2026-08-09T22:02:05.454397Z",
+    "priority": 10
+  },
+  {
+    "id": 11036,
+    "name": "AUGSBURG",
+    "country": "DE",
+    "region": "BAYERN",
+    "lat": 48.3690341,
+    "lng": 10.8979522,
+    "fetched": "2026-08-09T22:02:05.454397Z",
+    "priority": 11
+  },
+  {
+    "id": 11025,
+    "name": "REGENSBURG",
+    "country": "DE",
+    "region": "BAYERN",
+    "lat": 49.0195333,
+    "lng": 12.0974869,
+    "fetched": "2026-08-09T22:02:05.454397Z",
+    "priority": 12
+  },
+  {
+    "id": 11029,
+    "name": "WURZBURG",
+    "country": "DE",
+    "region": "BAYERN",
+    "lat": 49.7933723,
+    "lng": 9.9309779,
+    "fetched": "2026-08-09T22:02:05.454397Z",
+    "priority": 13
   }
 ]
