@@ -20,16 +20,6 @@
     "priority": 0
   },
   {
-    "id": 10349,
-    "name": "WESEL",
-    "country": "DE",
-    "region": "NORDRHEIN-WESTFALEN",
-    "lat": 51.6576909,
-    "lng": 6.617087,
-    "fetched": "2026-08-10T18:20:49.036423Z",
-    "priority": 1
-  },
-  {
     "id": 11007,
     "name": "DUISBURG",
     "country": "DE",
@@ -37,6 +27,16 @@
     "lat": 51.434999,
     "lng": 6.759562,
     "fetched": "2026-08-09T21:35:37.833478Z",
+    "priority": 1
+  },
+  {
+    "id": 10349,
+    "name": "WESEL",
+    "country": "DE",
+    "region": "NORDRHEIN-WESTFALEN",
+    "lat": 51.6576909,
+    "lng": 6.617087,
+    "fetched": "2026-08-10T18:20:49.036423Z",
     "priority": 1
   },
   {
@@ -388,5 +388,45 @@
     "lng": 11.0287364,
     "fetched": "2026-08-10T18:20:49.036423Z",
     "priority": 41
+  },
+  {
+    "id": 11016,
+    "name": "KIEL",
+    "country": "DE",
+    "region": "SCHLESWIG-HOLSTEIN",
+    "lat": 54.3227085,
+    "lng": 10.135555,
+    "fetched": "2026-08-10T20:28:43.893969Z",
+    "priority": 42
+  },
+  {
+    "id": 11118,
+    "name": "FLENSBURG",
+    "country": "DE",
+    "region": "SCHLESWIG-HOLSTEIN",
+    "lat": 54.7833021,
+    "lng": 9.4333264,
+    "fetched": "2026-08-10T20:28:43.893969Z",
+    "priority": 43
+  },
+  {
+    "id": 10551,
+    "name": "ROSTOCK",
+    "country": "DE",
+    "region": "MECKLENBURG-VORPOMMERN",
+    "lat": 54.0886707,
+    "lng": 12.1400211,
+    "fetched": "2026-08-10T20:28:43.893969Z",
+    "priority": 44
+  },
+  {
+    "id": 10605,
+    "name": "COTTBUS",
+    "country": "DE",
+    "region": "BRANDENBURG",
+    "lat": 51.7567447,
+    "lng": 14.3357307,
+    "fetched": "2026-08-10T20:28:43.893969Z",
+    "priority": 45
   }
 ]
