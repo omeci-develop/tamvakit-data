@@ -138,5 +138,55 @@
     "lng": 9.9309779,
     "fetched": "2026-08-09T22:02:05.454397Z",
     "priority": 13
+  },
+  {
+    "id": 11027,
+    "name": "STUTTGART",
+    "country": "DE",
+    "region": "BADEN-WÜRTTEMBERG",
+    "lat": 48.7784485,
+    "lng": 9.1800132,
+    "fetched": "2026-08-10T04:56:43.504125Z",
+    "priority": 14
+  },
+  {
+    "id": 11021,
+    "name": "MANNHEIM",
+    "country": "DE",
+    "region": "BADEN-WÜRTTEMBERG",
+    "lat": 49.4892913,
+    "lng": 8.4673098,
+    "fetched": "2026-08-10T04:56:43.504125Z",
+    "priority": 15
+  },
+  {
+    "id": 11014,
+    "name": "KARLSRUHE",
+    "country": "DE",
+    "region": "BADEN-WÜRTTEMBERG",
+    "lat": 49.0068705,
+    "lng": 8.4034195,
+    "fetched": "2026-08-10T04:56:43.504125Z",
+    "priority": 16
+  },
+  {
+    "id": 11011,
+    "name": "FREIBURG",
+    "country": "DE",
+    "region": "BADEN-WÜRTTEMBERG",
+    "lat": 47.9960901,
+    "lng": 7.8494005,
+    "fetched": "2026-08-10T04:56:43.504125Z",
+    "priority": 17
+  },
+  {
+    "id": 11028,
+    "name": "ULM",
+    "country": "DE",
+    "region": "BADEN-WÜRTTEMBERG",
+    "lat": 48.3984968,
+    "lng": 9.9912458,
+    "fetched": "2026-08-10T04:56:43.504125Z",
+    "priority": 18
   }
 ]
