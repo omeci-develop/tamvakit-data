@@ -1,5 +1,15 @@
 [
   {
+    "id": 11052,
+    "name": "EMMERICH",
+    "country": "DE",
+    "region": "NORDRHEIN-WESTFALEN",
+    "lat": 51.8322137,
+    "lng": 6.2428283,
+    "fetched": "2026-08-10T18:20:49.036423Z",
+    "priority": 0
+  },
+  {
     "id": 11019,
     "name": "KOLN",
     "country": "DE",
@@ -8,6 +18,16 @@
     "lng": 6.959974,
     "fetched": "2026-08-09T21:59:14.427377Z",
     "priority": 0
+  },
+  {
+    "id": 10349,
+    "name": "WESEL",
+    "country": "DE",
+    "region": "NORDRHEIN-WESTFALEN",
+    "lat": 51.6576909,
+    "lng": 6.617087,
+    "fetched": "2026-08-10T18:20:49.036423Z",
+    "priority": 1
   },
   {
     "id": 11007,
@@ -27,6 +47,16 @@
     "lat": 51.5142273,
     "lng": 7.4652789,
     "fetched": "2026-08-09T21:35:37.833478Z",
+    "priority": 2
+  },
+  {
+    "id": 11095,
+    "name": "BOCHOLT",
+    "country": "DE",
+    "region": "NORDRHEIN-WESTFALEN",
+    "lat": 51.8382715,
+    "lng": 6.6148669,
+    "fetched": "2026-08-10T18:20:49.036423Z",
     "priority": 2
   },
   {
@@ -70,6 +100,16 @@
     "priority": 6
   },
   {
+    "id": 10210,
+    "name": "MOERS",
+    "country": "DE",
+    "region": "NORDRHEIN-WESTFALEN",
+    "lat": 51.451283,
+    "lng": 6.62843,
+    "fetched": "2026-08-10T18:20:49.036423Z",
+    "priority": 6
+  },
+  {
     "id": 11012,
     "name": "HAMBURG",
     "country": "DE",
@@ -77,6 +117,16 @@
     "lat": 53.5293836,
     "lng": 9.9868308,
     "fetched": "2026-08-09T21:59:14.427377Z",
+    "priority": 7
+  },
+  {
+    "id": 11066,
+    "name": "KREFELD",
+    "country": "DE",
+    "region": "NORDRHEIN-WESTFALEN",
+    "lat": 51.3331205,
+    "lng": 6.5623343,
+    "fetched": "2026-08-10T18:20:49.036423Z",
     "priority": 7
   },
   {
@@ -188,5 +238,155 @@
     "lng": 9.9912458,
     "fetched": "2026-08-10T04:56:43.504125Z",
     "priority": 18
+  },
+  {
+    "id": 11010,
+    "name": "FRANKFURT",
+    "country": "DE",
+    "region": "HESSEN",
+    "lat": 50.1106444,
+    "lng": 8.6820917,
+    "fetched": "2026-08-10T18:20:49.036423Z",
+    "priority": 19
+  },
+  {
+    "id": 11015,
+    "name": "KASSEL",
+    "country": "DE",
+    "region": "HESSEN",
+    "lat": 51.3157833,
+    "lng": 9.4978479,
+    "fetched": "2026-08-10T18:20:49.036423Z",
+    "priority": 20
+  },
+  {
+    "id": 11032,
+    "name": "GIESSEN",
+    "country": "DE",
+    "region": "HESSEN",
+    "lat": 50.5862066,
+    "lng": 8.6742306,
+    "fetched": "2026-08-10T18:20:49.036423Z",
+    "priority": 21
+  },
+  {
+    "id": 11013,
+    "name": "HANNOVER",
+    "country": "DE",
+    "region": "NIEDERSACHSEN",
+    "lat": 52.3744779,
+    "lng": 9.7385532,
+    "fetched": "2026-08-10T18:20:49.036423Z",
+    "priority": 22
+  },
+  {
+    "id": 11055,
+    "name": "OSNABRUCK",
+    "country": "DE",
+    "region": "NIEDERSACHSEN",
+    "lat": 52.2719595,
+    "lng": 8.047635,
+    "fetched": "2026-08-10T18:20:49.036423Z",
+    "priority": 23
+  },
+  {
+    "id": 16754,
+    "name": "BRAUNSCHWEIG",
+    "country": "DE",
+    "region": "NIEDERSACHSEN",
+    "lat": 52.2646577,
+    "lng": 10.5236066,
+    "fetched": "2026-08-10T18:20:49.036423Z",
+    "priority": 24
+  },
+  {
+    "id": 10555,
+    "name": "OLDENBURG",
+    "country": "DE",
+    "region": "NIEDERSACHSEN",
+    "lat": 53.1389753,
+    "lng": 8.2146017,
+    "fetched": "2026-08-10T18:20:49.036423Z",
+    "priority": 25
+  },
+  {
+    "id": 11020,
+    "name": "MAINZ",
+    "country": "DE",
+    "region": "RHEINLAND-PFALZ",
+    "lat": 49.9995205,
+    "lng": 8.2736253,
+    "fetched": "2026-08-10T18:20:49.036423Z",
+    "priority": 26
+  },
+  {
+    "id": 10581,
+    "name": "KAISERSLAUTERN",
+    "country": "DE",
+    "region": "RHEINLAND-PFALZ",
+    "lat": 49.4432174,
+    "lng": 7.7689951,
+    "fetched": "2026-08-10T18:20:49.036423Z",
+    "priority": 27
+  },
+  {
+    "id": 11125,
+    "name": "TRIER",
+    "country": "DE",
+    "region": "RHEINLAND-PFALZ",
+    "lat": 49.7596208,
+    "lng": 6.6441878,
+    "fetched": "2026-08-10T18:20:49.036423Z",
+    "priority": 28
+  },
+  {
+    "id": 11026,
+    "name": "SAARBRUCKEN",
+    "country": "DE",
+    "region": "SAARLAND",
+    "lat": 49.234362,
+    "lng": 6.996379,
+    "fetched": "2026-08-10T18:20:49.036423Z",
+    "priority": 29
+  },
+  {
+    "id": 11100,
+    "name": "LEIPZIG",
+    "country": "DE",
+    "region": "SACHSEN",
+    "lat": 51.3406321,
+    "lng": 12.3747329,
+    "fetched": "2026-08-10T18:20:49.036423Z",
+    "priority": 30
+  },
+  {
+    "id": 11035,
+    "name": "DRESDEN",
+    "country": "DE",
+    "region": "SACHSEN",
+    "lat": 51.0493286,
+    "lng": 13.7381437,
+    "fetched": "2026-08-10T18:20:49.036423Z",
+    "priority": 31
+  },
+  {
+    "id": 10875,
+    "name": "MAGDEBURG",
+    "country": "DE",
+    "region": "SACHSEN-ANHALT",
+    "lat": 52.1314783,
+    "lng": 11.6400789,
+    "fetched": "2026-08-10T18:20:49.036423Z",
+    "priority": 40
+  },
+  {
+    "id": 10874,
+    "name": "ERFURT",
+    "country": "DE",
+    "region": "THÜRINGEN",
+    "lat": 50.9777974,
+    "lng": 11.0287364,
+    "fetched": "2026-08-10T18:20:49.036423Z",
+    "priority": 41
   }
 ]
