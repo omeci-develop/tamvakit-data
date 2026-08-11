@@ -20,16 +20,6 @@
     "priority": 0
   },
   {
-    "id": 10349,
-    "name": "WESEL",
-    "country": "DE",
-    "region": "NORDRHEIN-WESTFALEN",
-    "lat": 51.6576909,
-    "lng": 6.617087,
-    "fetched": "2026-08-10T18:20:49.036423Z",
-    "priority": 1
-  },
-  {
     "id": 11007,
     "name": "DUISBURG",
     "country": "DE",
@@ -37,6 +27,16 @@
     "lat": 51.434999,
     "lng": 6.759562,
     "fetched": "2026-08-09T21:35:37.833478Z",
+    "priority": 1
+  },
+  {
+    "id": 10349,
+    "name": "WESEL",
+    "country": "DE",
+    "region": "NORDRHEIN-WESTFALEN",
+    "lat": 51.6576909,
+    "lng": 6.617087,
+    "fetched": "2026-08-10T18:20:49.036423Z",
     "priority": 1
   },
   {
@@ -110,16 +110,6 @@
     "priority": 6
   },
   {
-    "id": 11012,
-    "name": "HAMBURG",
-    "country": "DE",
-    "region": "HAMBURG",
-    "lat": 53.5293836,
-    "lng": 9.9868308,
-    "fetched": "2026-08-09T21:59:14.427377Z",
-    "priority": 7
-  },
-  {
     "id": 11066,
     "name": "KREFELD",
     "country": "DE",
@@ -127,6 +117,16 @@
     "lat": 51.3331205,
     "lng": 6.5623343,
     "fetched": "2026-08-10T18:20:49.036423Z",
+    "priority": 7
+  },
+  {
+    "id": 11012,
+    "name": "HAMBURG",
+    "country": "DE",
+    "region": "HAMBURG",
+    "lat": 53.5293836,
+    "lng": 9.9868308,
+    "fetched": "2026-08-09T21:59:14.427377Z",
     "priority": 7
   },
   {
@@ -448,5 +448,195 @@
     "lng": 32.8540497,
     "fetched": "2026-08-11T04:42:11.421926Z",
     "priority": 47
+  },
+  {
+    "id": 9560,
+    "name": "İZMİR",
+    "country": "TR",
+    "region": "İZMİR",
+    "lat": 38.4192537,
+    "lng": 27.128469,
+    "fetched": "2026-08-11T07:19:18.012316Z",
+    "priority": 48
+  },
+  {
+    "id": 9335,
+    "name": "BURSA",
+    "country": "TR",
+    "region": "BURSA",
+    "lat": 40.1825734,
+    "lng": 29.0675039,
+    "fetched": "2026-08-11T07:19:18.012316Z",
+    "priority": 49
+  },
+  {
+    "id": 9225,
+    "name": "ANTALYA",
+    "country": "TR",
+    "region": "ANTALYA",
+    "lat": 36.8865728,
+    "lng": 30.7030242,
+    "fetched": "2026-08-11T07:19:18.012316Z",
+    "priority": 50
+  },
+  {
+    "id": 9146,
+    "name": "ADANA",
+    "country": "TR",
+    "region": "ADANA",
+    "lat": 36.9863599,
+    "lng": 35.3252861,
+    "fetched": "2026-08-11T07:19:18.012316Z",
+    "priority": 51
+  },
+  {
+    "id": 9676,
+    "name": "KONYA",
+    "country": "TR",
+    "region": "KONYA",
+    "lat": 37.872734,
+    "lng": 32.4924376,
+    "fetched": "2026-08-11T07:19:18.012316Z",
+    "priority": 52
+  },
+  {
+    "id": 9479,
+    "name": "GAZİANTEP",
+    "country": "TR",
+    "region": "GAZİANTEP",
+    "lat": 37.0628317,
+    "lng": 37.3792617,
+    "fetched": "2026-08-11T07:19:18.012316Z",
+    "priority": 53
+  },
+  {
+    "id": 9831,
+    "name": "ŞANLIURFA",
+    "country": "TR",
+    "region": "ŞANLIURFA",
+    "lat": 37.1596239,
+    "lng": 38.791929,
+    "fetched": "2026-08-11T07:19:18.012316Z",
+    "priority": 54
+  },
+  {
+    "id": 9654,
+    "name": "KOCAELİ",
+    "country": "TR",
+    "region": "KOCAELİ",
+    "lat": 40.7653892,
+    "lng": 29.9407361,
+    "fetched": "2026-08-11T07:19:18.012316Z",
+    "priority": 55
+  },
+  {
+    "id": 9737,
+    "name": "MERSİN",
+    "country": "TR",
+    "region": "MERSİN",
+    "lat": 36.7978381,
+    "lng": 34.6298391,
+    "fetched": "2026-08-11T07:19:18.012316Z",
+    "priority": 56
+  },
+  {
+    "id": 9402,
+    "name": "DİYARBAKIR",
+    "country": "TR",
+    "region": "DİYARBAKIR",
+    "lat": 37.9162222,
+    "lng": 40.2363542,
+    "fetched": "2026-08-11T07:19:18.012316Z",
+    "priority": 57
+  },
+  {
+    "id": 20089,
+    "name": "HATAY",
+    "country": "TR",
+    "region": "HATAY",
+    "lat": 36.2025471,
+    "lng": 36.1602908,
+    "fetched": "2026-08-11T07:19:18.012316Z",
+    "priority": 58
+  },
+  {
+    "id": 9716,
+    "name": "MANİSA",
+    "country": "TR",
+    "region": "MANİSA",
+    "lat": 38.6125793,
+    "lng": 27.4333969,
+    "fetched": "2026-08-11T07:19:18.012316Z",
+    "priority": 59
+  },
+  {
+    "id": 9620,
+    "name": "KAYSERİ",
+    "country": "TR",
+    "region": "KAYSERİ",
+    "lat": 38.7219011,
+    "lng": 35.4873214,
+    "fetched": "2026-08-11T07:19:18.012316Z",
+    "priority": 60
+  },
+  {
+    "id": 9819,
+    "name": "SAMSUN",
+    "country": "TR",
+    "region": "SAMSUN",
+    "lat": 41.2946149,
+    "lng": 36.3320596,
+    "fetched": "2026-08-11T07:19:18.012316Z",
+    "priority": 61
+  },
+  {
+    "id": 9270,
+    "name": "BALIKESİR",
+    "country": "TR",
+    "region": "BALIKESİR",
+    "lat": 39.6473917,
+    "lng": 27.8879787,
+    "fetched": "2026-08-11T07:19:18.012316Z",
+    "priority": 62
+  },
+  {
+    "id": 9577,
+    "name": "KAHRAMANMARAŞ",
+    "country": "TR",
+    "region": "KAHRAMANMARAŞ",
+    "lat": 37.5812744,
+    "lng": 36.927509,
+    "fetched": "2026-08-11T07:19:18.012316Z",
+    "priority": 63
+  },
+  {
+    "id": 9930,
+    "name": "VAN",
+    "country": "TR",
+    "region": "VAN",
+    "lat": 38.500875,
+    "lng": 43.3946051,
+    "fetched": "2026-08-11T07:19:18.012316Z",
+    "priority": 64
+  },
+  {
+    "id": 9252,
+    "name": "AYDIN",
+    "country": "TR",
+    "region": "AYDIN",
+    "lat": 37.8483767,
+    "lng": 27.8435878,
+    "fetched": "2026-08-11T07:19:18.012316Z",
+    "priority": 65
+  },
+  {
+    "id": 9879,
+    "name": "TEKİRDAĞ",
+    "country": "TR",
+    "region": "TEKİRDAĞ",
+    "lat": 40.9781214,
+    "lng": 27.5107799,
+    "fetched": "2026-08-11T07:19:18.012316Z",
+    "priority": 66
   }
 ]
