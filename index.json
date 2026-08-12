@@ -1,5 +1,15 @@
 [
   {
+    "id": 13976,
+    "name": "AMSTERDAM",
+    "country": "NL",
+    "region": "HOLLANDA",
+    "lat": 52.3730796,
+    "lng": 4.8924534,
+    "fetched": "2026-08-12T05:05:12.570283Z",
+    "priority": 0
+  },
+  {
     "id": 11019,
     "name": "KOLN",
     "country": "DE",
@@ -40,6 +50,16 @@
     "priority": 1
   },
   {
+    "id": 13980,
+    "name": "ROTTERDAM",
+    "country": "NL",
+    "region": "HOLLANDA",
+    "lat": 51.9244424,
+    "lng": 4.47775,
+    "fetched": "2026-08-12T05:05:12.570283Z",
+    "priority": 1
+  },
+  {
     "id": 11006,
     "name": "DORTMUND",
     "country": "DE",
@@ -60,6 +80,16 @@
     "priority": 2
   },
   {
+    "id": 13977,
+    "name": "DEN HAAG",
+    "country": "NL",
+    "region": "HOLLANDA",
+    "lat": 52.0799838,
+    "lng": 4.3113461,
+    "fetched": "2026-08-12T05:05:12.570283Z",
+    "priority": 2
+  },
+  {
     "id": 11003,
     "name": "BIELEFELD",
     "country": "DE",
@@ -67,6 +97,16 @@
     "lat": 52.0191005,
     "lng": 8.531007,
     "fetched": "2026-08-09T21:35:37.833478Z",
+    "priority": 3
+  },
+  {
+    "id": 13975,
+    "name": "UTRECHT",
+    "country": "NL",
+    "region": "HOLLANDA",
+    "lat": 52.0907006,
+    "lng": 5.1215634,
+    "fetched": "2026-08-12T05:05:12.570283Z",
     "priority": 3
   },
   {
@@ -80,6 +120,16 @@
     "priority": 4
   },
   {
+    "id": 13978,
+    "name": "EINDHOVEN",
+    "country": "NL",
+    "region": "HOLLANDA",
+    "lat": 51.4485569,
+    "lng": 5.4501225,
+    "fetched": "2026-08-12T05:05:12.570283Z",
+    "priority": 4
+  },
+  {
     "id": 11023,
     "name": "MUNSTER",
     "country": "DE",
@@ -87,6 +137,16 @@
     "lat": 51.9625101,
     "lng": 7.6251879,
     "fetched": "2026-08-09T21:59:14.427377Z",
+    "priority": 5
+  },
+  {
+    "id": 13883,
+    "name": "ENSCHEDE",
+    "country": "NL",
+    "region": "HOLLANDA",
+    "lat": 52.2209855,
+    "lng": 6.8940537,
+    "fetched": "2026-08-12T05:05:12.570283Z",
     "priority": 5
   },
   {
@@ -110,14 +170,14 @@
     "priority": 6
   },
   {
-    "id": 11066,
-    "name": "KREFELD",
-    "country": "DE",
-    "region": "NORDRHEIN-WESTFALEN",
-    "lat": 51.3331205,
-    "lng": 6.5623343,
-    "fetched": "2026-08-10T18:20:49.036423Z",
-    "priority": 7
+    "id": 13979,
+    "name": "GRONINGEN",
+    "country": "NL",
+    "region": "HOLLANDA",
+    "lat": 53.2190652,
+    "lng": 6.5680077,
+    "fetched": "2026-08-12T05:05:12.570283Z",
+    "priority": 6
   },
   {
     "id": 11012,
@@ -127,6 +187,16 @@
     "lat": 53.5293836,
     "lng": 9.9868308,
     "fetched": "2026-08-09T21:59:14.427377Z",
+    "priority": 7
+  },
+  {
+    "id": 11066,
+    "name": "KREFELD",
+    "country": "DE",
+    "region": "NORDRHEIN-WESTFALEN",
+    "lat": 51.3331205,
+    "lng": 6.5623343,
+    "fetched": "2026-08-10T18:20:49.036423Z",
     "priority": 7
   },
   {
@@ -638,5 +708,25 @@
     "lng": 27.5107799,
     "fetched": "2026-08-11T07:19:18.012316Z",
     "priority": 66
+  },
+  {
+    "id": 9807,
+    "name": "SAKARYA",
+    "country": "TR",
+    "region": "SAKARYA",
+    "lat": 40.7726291,
+    "lng": 30.4038575,
+    "fetched": "2026-08-12T05:05:12.570283Z",
+    "priority": 71
+  },
+  {
+    "id": 9392,
+    "name": "DENİZLİ",
+    "country": "TR",
+    "region": "DENİZLİ",
+    "lat": 37.7827875,
+    "lng": 29.0966476,
+    "fetched": "2026-08-12T05:05:12.570283Z",
+    "priority": 72
   }
 ]
