@@ -1207,6 +1207,148 @@
       "name": "ACIPAYAM"
     }
   ],
+  "TR/ESKİŞEHİR": [
+    {
+      "id": 9467,
+      "name": "ALPU"
+    },
+    {
+      "id": 9468,
+      "name": "BEYLİKOVA"
+    },
+    {
+      "id": 9469,
+      "name": "ÇİFTELER"
+    },
+    {
+      "id": 9470,
+      "name": "ESKİŞEHİR"
+    },
+    {
+      "id": 9471,
+      "name": "GÜNYÜZÜ"
+    },
+    {
+      "id": 9472,
+      "name": "HAN"
+    },
+    {
+      "id": 9473,
+      "name": "İNÖNÜ"
+    },
+    {
+      "id": 9474,
+      "name": "MAHMUDİYE"
+    },
+    {
+      "id": 9475,
+      "name": "MİHALIÇÇIK"
+    },
+    {
+      "id": 9476,
+      "name": "SEYİTGAZİ"
+    },
+    {
+      "id": 9477,
+      "name": "SİVRİHİSAR"
+    },
+    {
+      "id": 17919,
+      "name": "SARICAKAYA"
+    },
+    {
+      "id": 33292,
+      "name": "MİHALGAZİ"
+    }
+  ],
+  "TR/MARDİN": [
+    {
+      "id": 9723,
+      "name": "DARGECİT"
+    },
+    {
+      "id": 9724,
+      "name": "DERİK"
+    },
+    {
+      "id": 9725,
+      "name": "KIZILTEPE"
+    },
+    {
+      "id": 9726,
+      "name": "MARDİN"
+    },
+    {
+      "id": 9727,
+      "name": "MAZIDAĞI"
+    },
+    {
+      "id": 9728,
+      "name": "MİDYAT"
+    },
+    {
+      "id": 9729,
+      "name": "NUSAYBİN"
+    },
+    {
+      "id": 9730,
+      "name": "ÖMERLİ"
+    },
+    {
+      "id": 17901,
+      "name": "SAVUR"
+    }
+  ],
+  "TR/MUĞLA": [
+    {
+      "id": 9741,
+      "name": "BODRUM"
+    },
+    {
+      "id": 9742,
+      "name": "DALAMAN"
+    },
+    {
+      "id": 9743,
+      "name": "DATÇA"
+    },
+    {
+      "id": 9744,
+      "name": "FETHİYE"
+    },
+    {
+      "id": 9745,
+      "name": "KÖYCEĞİZ"
+    },
+    {
+      "id": 9746,
+      "name": "MİLAS"
+    },
+    {
+      "id": 9747,
+      "name": "MUĞLA"
+    },
+    {
+      "id": 9748,
+      "name": "ORTACA"
+    },
+    {
+      "id": 9749,
+      "name": "ULA"
+    },
+    {
+      "id": 9750,
+      "name": "YATAĞAN"
+    },
+    {
+      "id": 17883,
+      "name": "MARMARİS"
+    },
+    {
+      "id": 17884,
+      "name": "SEYDİKEMER"
+    }
+  ],
   "TR/SAKARYA": [
     {
       "id": 9800,

@@ -40,16 +40,6 @@
     "priority": 1
   },
   {
-    "id": 10349,
-    "name": "WESEL",
-    "country": "DE",
-    "region": "NORDRHEIN-WESTFALEN",
-    "lat": 51.6576909,
-    "lng": 6.617087,
-    "fetched": "2026-08-10T18:20:49.036423Z",
-    "priority": 1
-  },
-  {
     "id": 13980,
     "name": "ROTTERDAM",
     "country": "NL",
@@ -57,6 +47,16 @@
     "lat": 51.9244424,
     "lng": 4.47775,
     "fetched": "2026-08-12T05:05:12.570283Z",
+    "priority": 1
+  },
+  {
+    "id": 10349,
+    "name": "WESEL",
+    "country": "DE",
+    "region": "NORDRHEIN-WESTFALEN",
+    "lat": 51.6576909,
+    "lng": 6.617087,
+    "fetched": "2026-08-10T18:20:49.036423Z",
     "priority": 1
   },
   {
@@ -70,16 +70,6 @@
     "priority": 2
   },
   {
-    "id": 11095,
-    "name": "BOCHOLT",
-    "country": "DE",
-    "region": "NORDRHEIN-WESTFALEN",
-    "lat": 51.8382715,
-    "lng": 6.6148669,
-    "fetched": "2026-08-10T18:20:49.036423Z",
-    "priority": 2
-  },
-  {
     "id": 13977,
     "name": "DEN HAAG",
     "country": "NL",
@@ -87,6 +77,16 @@
     "lat": 52.0799838,
     "lng": 4.3113461,
     "fetched": "2026-08-12T05:05:12.570283Z",
+    "priority": 2
+  },
+  {
+    "id": 11095,
+    "name": "BOCHOLT",
+    "country": "DE",
+    "region": "NORDRHEIN-WESTFALEN",
+    "lat": 51.8382715,
+    "lng": 6.6148669,
+    "fetched": "2026-08-10T18:20:49.036423Z",
     "priority": 2
   },
   {
@@ -150,16 +150,6 @@
     "priority": 5
   },
   {
-    "id": 11002,
-    "name": "BERLIN",
-    "country": "DE",
-    "region": "BERLIN",
-    "lat": 52.5136844,
-    "lng": 13.3939867,
-    "fetched": "2026-08-09T21:59:14.427377Z",
-    "priority": 6
-  },
-  {
     "id": 10210,
     "name": "MOERS",
     "country": "DE",
@@ -167,6 +157,16 @@
     "lat": 51.451283,
     "lng": 6.62843,
     "fetched": "2026-08-10T18:20:49.036423Z",
+    "priority": 6
+  },
+  {
+    "id": 11002,
+    "name": "BERLIN",
+    "country": "DE",
+    "region": "BERLIN",
+    "lat": 52.5136844,
+    "lng": 13.3939867,
+    "fetched": "2026-08-09T21:59:14.427377Z",
     "priority": 6
   },
   {
@@ -180,16 +180,6 @@
     "priority": 6
   },
   {
-    "id": 11012,
-    "name": "HAMBURG",
-    "country": "DE",
-    "region": "HAMBURG",
-    "lat": 53.5293836,
-    "lng": 9.9868308,
-    "fetched": "2026-08-09T21:59:14.427377Z",
-    "priority": 7
-  },
-  {
     "id": 11066,
     "name": "KREFELD",
     "country": "DE",
@@ -197,6 +187,16 @@
     "lat": 51.3331205,
     "lng": 6.5623343,
     "fetched": "2026-08-10T18:20:49.036423Z",
+    "priority": 7
+  },
+  {
+    "id": 11012,
+    "name": "HAMBURG",
+    "country": "DE",
+    "region": "HAMBURG",
+    "lat": 53.5293836,
+    "lng": 9.9868308,
+    "fetched": "2026-08-09T21:59:14.427377Z",
     "priority": 7
   },
   {
@@ -728,5 +728,35 @@
     "lng": 29.0966476,
     "fetched": "2026-08-12T05:05:12.570283Z",
     "priority": 72
+  },
+  {
+    "id": 9747,
+    "name": "MUĞLA",
+    "country": "TR",
+    "region": "MUĞLA",
+    "lat": 37.2151784,
+    "lng": 28.363733,
+    "fetched": "2026-08-13T05:09:43.315522Z",
+    "priority": 73
+  },
+  {
+    "id": 9470,
+    "name": "ESKİŞEHİR",
+    "country": "TR",
+    "region": "ESKİŞEHİR",
+    "lat": 39.7743941,
+    "lng": 30.519116,
+    "fetched": "2026-08-13T05:09:43.315522Z",
+    "priority": 74
+  },
+  {
+    "id": 9726,
+    "name": "MARDİN",
+    "country": "TR",
+    "region": "MARDİN",
+    "lat": 37.3132581,
+    "lng": 40.7354383,
+    "fetched": "2026-08-13T05:09:43.315522Z",
+    "priority": 75
   }
 ]
