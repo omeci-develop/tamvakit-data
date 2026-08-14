@@ -778,5 +778,45 @@
     "lng": 41.2727715,
     "fetched": "2026-08-14T05:05:11.349598Z",
     "priority": 78
+  },
+  {
+    "id": 13897,
+    "name": "NIJMEGEN",
+    "country": "NL",
+    "region": "HOLLANDA",
+    "lat": 51.8425749,
+    "lng": 5.8389606,
+    "fetched": "2026-08-14T20:19:56.540200+00:00",
+    "priority": 0
+  },
+  {
+    "id": 13970,
+    "name": "ZEVENAAR",
+    "country": "NL",
+    "region": "HOLLANDA",
+    "lat": 51.9279081,
+    "lng": 6.0775263,
+    "fetched": "2026-08-14T20:19:56.540200+00:00",
+    "priority": 0
+  },
+  {
+    "id": 13918,
+    "name": "DOETINCHEM",
+    "country": "NL",
+    "region": "HOLLANDA",
+    "lat": 51.9585348,
+    "lng": 6.2814551,
+    "fetched": "2026-08-14T20:19:56.540200+00:00",
+    "priority": 0
+  },
+  {
+    "id": 13894,
+    "name": "ARNHEM",
+    "country": "NL",
+    "region": "HOLLANDA",
+    "lat": 51.984257,
+    "lng": 5.9108573,
+    "fetched": "2026-08-14T20:19:56.540200+00:00",
+    "priority": 0
   }
 ]
