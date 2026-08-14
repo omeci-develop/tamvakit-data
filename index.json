@@ -30,16 +30,6 @@
     "priority": 0
   },
   {
-    "id": 11007,
-    "name": "DUISBURG",
-    "country": "DE",
-    "region": "NORDRHEIN-WESTFALEN",
-    "lat": 51.434999,
-    "lng": 6.759562,
-    "fetched": "2026-08-09T21:35:37.833478Z",
-    "priority": 1
-  },
-  {
     "id": 13980,
     "name": "ROTTERDAM",
     "country": "NL",
@@ -47,6 +37,16 @@
     "lat": 51.9244424,
     "lng": 4.47775,
     "fetched": "2026-08-12T05:05:12.570283Z",
+    "priority": 1
+  },
+  {
+    "id": 11007,
+    "name": "DUISBURG",
+    "country": "DE",
+    "region": "NORDRHEIN-WESTFALEN",
+    "lat": 51.434999,
+    "lng": 6.759562,
+    "fetched": "2026-08-09T21:35:37.833478Z",
     "priority": 1
   },
   {
@@ -70,16 +70,6 @@
     "priority": 2
   },
   {
-    "id": 13977,
-    "name": "DEN HAAG",
-    "country": "NL",
-    "region": "HOLLANDA",
-    "lat": 52.0799838,
-    "lng": 4.3113461,
-    "fetched": "2026-08-12T05:05:12.570283Z",
-    "priority": 2
-  },
-  {
     "id": 11095,
     "name": "BOCHOLT",
     "country": "DE",
@@ -87,6 +77,16 @@
     "lat": 51.8382715,
     "lng": 6.6148669,
     "fetched": "2026-08-10T18:20:49.036423Z",
+    "priority": 2
+  },
+  {
+    "id": 13977,
+    "name": "DEN HAAG",
+    "country": "NL",
+    "region": "HOLLANDA",
+    "lat": 52.0799838,
+    "lng": 4.3113461,
+    "fetched": "2026-08-12T05:05:12.570283Z",
     "priority": 2
   },
   {
@@ -150,16 +150,6 @@
     "priority": 5
   },
   {
-    "id": 10210,
-    "name": "MOERS",
-    "country": "DE",
-    "region": "NORDRHEIN-WESTFALEN",
-    "lat": 51.451283,
-    "lng": 6.62843,
-    "fetched": "2026-08-10T18:20:49.036423Z",
-    "priority": 6
-  },
-  {
     "id": 11002,
     "name": "BERLIN",
     "country": "DE",
@@ -167,6 +157,16 @@
     "lat": 52.5136844,
     "lng": 13.3939867,
     "fetched": "2026-08-09T21:59:14.427377Z",
+    "priority": 6
+  },
+  {
+    "id": 10210,
+    "name": "MOERS",
+    "country": "DE",
+    "region": "NORDRHEIN-WESTFALEN",
+    "lat": 51.451283,
+    "lng": 6.62843,
+    "fetched": "2026-08-10T18:20:49.036423Z",
     "priority": 6
   },
   {
@@ -180,16 +180,6 @@
     "priority": 6
   },
   {
-    "id": 11066,
-    "name": "KREFELD",
-    "country": "DE",
-    "region": "NORDRHEIN-WESTFALEN",
-    "lat": 51.3331205,
-    "lng": 6.5623343,
-    "fetched": "2026-08-10T18:20:49.036423Z",
-    "priority": 7
-  },
-  {
     "id": 11012,
     "name": "HAMBURG",
     "country": "DE",
@@ -197,6 +187,16 @@
     "lat": 53.5293836,
     "lng": 9.9868308,
     "fetched": "2026-08-09T21:59:14.427377Z",
+    "priority": 7
+  },
+  {
+    "id": 11066,
+    "name": "KREFELD",
+    "country": "DE",
+    "region": "NORDRHEIN-WESTFALEN",
+    "lat": 51.3331205,
+    "lng": 6.5623343,
+    "fetched": "2026-08-10T18:20:49.036423Z",
     "priority": 7
   },
   {
@@ -758,5 +758,25 @@
     "lng": 40.7354383,
     "fetched": "2026-08-13T05:09:43.315522Z",
     "priority": 75
+  },
+  {
+    "id": 9905,
+    "name": "TRABZON",
+    "country": "TR",
+    "region": "TRABZON",
+    "lat": 41.0054605,
+    "lng": 39.7301463,
+    "fetched": "2026-08-14T05:05:11.349598Z",
+    "priority": 77
+  },
+  {
+    "id": 9451,
+    "name": "ERZURUM",
+    "country": "TR",
+    "region": "ERZURUM",
+    "lat": 39.90632,
+    "lng": 41.2727715,
+    "fetched": "2026-08-14T05:05:11.349598Z",
+    "priority": 78
   }
 ]
