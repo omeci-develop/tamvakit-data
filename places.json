@@ -1133,6 +1133,80 @@
       "name": "GIETEN(DRENTHE)"
     }
   ],
+  "TR/AFYONKARAHİSAR": [
+    {
+      "id": 9167,
+      "name": "AFYONKARAHİSAR"
+    },
+    {
+      "id": 9168,
+      "name": "BAŞMAKÇI"
+    },
+    {
+      "id": 9169,
+      "name": "BAYAT"
+    },
+    {
+      "id": 9170,
+      "name": "BOLVADİN"
+    },
+    {
+      "id": 9171,
+      "name": "ÇAY"
+    },
+    {
+      "id": 9172,
+      "name": "ÇOBANLAR"
+    },
+    {
+      "id": 9173,
+      "name": "DAZKIRI"
+    },
+    {
+      "id": 9174,
+      "name": "DİNAR"
+    },
+    {
+      "id": 9175,
+      "name": "EMİRDAĞ"
+    },
+    {
+      "id": 9176,
+      "name": "EVCİLER"
+    },
+    {
+      "id": 9177,
+      "name": "HOCALAR"
+    },
+    {
+      "id": 9178,
+      "name": "İHSANİYE"
+    },
+    {
+      "id": 9179,
+      "name": "İSCEHİSAR"
+    },
+    {
+      "id": 9180,
+      "name": "KIZILÖREN"
+    },
+    {
+      "id": 9181,
+      "name": "SANDIKLI"
+    },
+    {
+      "id": 9182,
+      "name": "SİNANPAŞA"
+    },
+    {
+      "id": 9183,
+      "name": "ŞUHUT"
+    },
+    {
+      "id": 9184,
+      "name": "SULTANDAĞI"
+    }
+  ],
   "TR/DENİZLİ": [
     {
       "id": 9381,
@@ -1339,6 +1413,60 @@
       "name": "MİHALGAZİ"
     }
   ],
+  "TR/MALATYA": [
+    {
+      "id": 9694,
+      "name": "AKÇADAĞ"
+    },
+    {
+      "id": 9695,
+      "name": "ARAPGİR"
+    },
+    {
+      "id": 9696,
+      "name": "ARGUVAN"
+    },
+    {
+      "id": 9697,
+      "name": "DARENDE"
+    },
+    {
+      "id": 9698,
+      "name": "DOĞANŞEHİR"
+    },
+    {
+      "id": 9699,
+      "name": "DOĞANYOL"
+    },
+    {
+      "id": 9700,
+      "name": "HEKİMHAN"
+    },
+    {
+      "id": 9701,
+      "name": "KALE (M)"
+    },
+    {
+      "id": 9702,
+      "name": "KULUNCAK"
+    },
+    {
+      "id": 9703,
+      "name": "MALATYA"
+    },
+    {
+      "id": 9704,
+      "name": "PÜTÜRGE"
+    },
+    {
+      "id": 9705,
+      "name": "YAZIHAN"
+    },
+    {
+      "id": 9706,
+      "name": "YEŞİLYURT"
+    }
+  ],
   "TR/MARDİN": [
     {
       "id": 9723,
@@ -1425,6 +1553,72 @@
     {
       "id": 17884,
       "name": "SEYDİKEMER"
+    }
+  ],
+  "TR/ORDU": [
+    {
+      "id": 9768,
+      "name": "AKKUŞ"
+    },
+    {
+      "id": 9769,
+      "name": "AYBASTI"
+    },
+    {
+      "id": 9770,
+      "name": "ÇAMAŞ"
+    },
+    {
+      "id": 9771,
+      "name": "ÇATALPINAR"
+    },
+    {
+      "id": 9772,
+      "name": "ÇAYBAŞI"
+    },
+    {
+      "id": 9773,
+      "name": "FATSA"
+    },
+    {
+      "id": 9774,
+      "name": "GÖLKÖY"
+    },
+    {
+      "id": 9775,
+      "name": "GÜLYALI"
+    },
+    {
+      "id": 9776,
+      "name": "GÜRGENTEPE"
+    },
+    {
+      "id": 9777,
+      "name": "İKİZCE"
+    },
+    {
+      "id": 9778,
+      "name": "KABATAŞ"
+    },
+    {
+      "id": 9779,
+      "name": "KORGAN"
+    },
+    {
+      "id": 9780,
+      "name": "KUMRU"
+    },
+    {
+      "id": 9781,
+      "name": "MESUDİYE"
+    },
+    {
+      "id": 9782,
+      "name": "ORDU"
+    },
+    {
+      "id": 9783,
+      "name": "ÜNYE"
     }
   ],
   "TR/SAKARYA": [
