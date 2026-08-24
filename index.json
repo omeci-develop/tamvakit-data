@@ -1,11 +1,11 @@
 [
   {
-    "id": 11469,
-    "name": "ABSAM",
-    "country": "AT",
-    "region": "AVUSTURYA",
-    "lat": 47.2965003,
-    "lng": 11.5051409,
+    "id": 10411,
+    "name": "LAPPERSDORF",
+    "country": "DE",
+    "region": "BAYERN",
+    "lat": 49.0715563,
+    "lng": 12.0599293,
     "fetched": "2026-08-15T15:43:38.021047Z",
     "priority": 0
   },
@@ -11490,12 +11490,12 @@
     "priority": 0
   },
   {
-    "id": 10411,
-    "name": "LAPPERSDORF",
-    "country": "DE",
-    "region": "BAYERN",
-    "lat": 49.0715563,
-    "lng": 12.0599293,
+    "id": 11469,
+    "name": "ABSAM",
+    "country": "AT",
+    "region": "AVUSTURYA",
+    "lat": 47.2965003,
+    "lng": 11.5051409,
     "fetched": "2026-08-15T15:43:38.021047Z",
     "priority": 0
   },
@@ -22990,12 +22990,12 @@
     "priority": 0
   },
   {
-    "id": 13116,
-    "name": "VOUZIERS",
-    "country": "FR",
-    "region": "FRANSA",
-    "lat": 49.3980838,
-    "lng": 4.7003648,
+    "id": 9504,
+    "name": "ŞİRAN",
+    "country": "TR",
+    "region": "GÜMÜŞHANE",
+    "lat": 40.1898258,
+    "lng": 39.1252323,
     "fetched": "2026-08-15T15:43:38.021047Z",
     "priority": 0
   },
@@ -34460,12 +34460,12 @@
     "priority": 0
   },
   {
-    "id": 9504,
-    "name": "ŞİRAN",
-    "country": "TR",
-    "region": "GÜMÜŞHANE",
-    "lat": 40.1898258,
-    "lng": 39.1252323,
+    "id": 13116,
+    "name": "VOUZIERS",
+    "country": "FR",
+    "region": "FRANSA",
+    "lat": 49.3980838,
+    "lng": 4.7003648,
     "fetched": "2026-08-15T15:43:38.021047Z",
     "priority": 0
   },
