@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "generated": "2026-08-29T13:00:00Z",
+  "authority": "diyanet",
+  "source": "Diyanet İşleri Başkanlığı — Dinî Günler Listesi",
+  "sourceUrl": "https://vakithesaplama.diyanet.gov.tr/dinigunler.php",
+  "days": [
+    { "kind": "mirac",          "date": "2026-01-15", "hijriYear": 1447 },
+    { "kind": "berat",          "date": "2026-02-02", "hijriYear": 1447 },
+    { "kind": "ramazan",        "date": "2026-02-19", "hijriYear": 1447 },
+    { "kind": "kadir",          "date": "2026-03-16", "hijriYear": 1447 },
+    { "kind": "arefeRamazan",   "date": "2026-03-19", "hijriYear": 1447 },
+    { "kind": "ramazanBayrami", "date": "2026-03-20", "hijriYear": 1447, "days": 3 },
+    { "kind": "arefeKurban",    "date": "2026-05-26", "hijriYear": 1447 },
+    { "kind": "kurbanBayrami",  "date": "2026-05-27", "hijriYear": 1447, "days": 4 },
+    { "kind": "hicriYilbasi",   "date": "2026-06-16", "hijriYear": 1448 },
+    { "kind": "asure",          "date": "2026-06-25", "hijriYear": 1448 },
+    { "kind": "mevlid",         "date": "2026-08-24", "hijriYear": 1448 },
+    { "kind": "ucAylar",        "date": "2026-12-10", "hijriYear": 1448 },
+    { "kind": "regaib",         "date": "2026-12-10", "hijriYear": 1448 }
+  ]
+}
