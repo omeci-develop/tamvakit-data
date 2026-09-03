@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-08-29T13:00:00Z",
+  "generated": "2026-09-03T12:00:00Z",
   "authority": "diyanet",
   "source": "Diyanet İşleri Başkanlığı — Dinî Günler Listesi",
   "sourceUrl": "https://vakithesaplama.diyanet.gov.tr/dinigunler.php",
@@ -17,6 +17,20 @@
     { "kind": "asure",          "date": "2026-06-25", "hijriYear": 1448 },
     { "kind": "mevlid",         "date": "2026-08-24", "hijriYear": 1448 },
     { "kind": "ucAylar",        "date": "2026-12-10", "hijriYear": 1448 },
-    { "kind": "regaib",         "date": "2026-12-10", "hijriYear": 1448 }
+    { "kind": "regaib",         "date": "2026-12-10", "hijriYear": 1448 },
+    { "kind": "mirac",          "date": "2027-01-04", "hijriYear": 1448 },
+    { "kind": "berat",          "date": "2027-01-22", "hijriYear": 1448 },
+    { "kind": "ramazan",        "date": "2027-02-08", "hijriYear": 1448 },
+    { "kind": "kadir",          "date": "2027-03-05", "hijriYear": 1448 },
+    { "kind": "arefeRamazan",   "date": "2027-03-08", "hijriYear": 1448 },
+    { "kind": "ramazanBayrami", "date": "2027-03-09", "hijriYear": 1448, "days": 3 },
+    { "kind": "arefeKurban",    "date": "2027-05-15", "hijriYear": 1448 },
+    { "kind": "kurbanBayrami",  "date": "2027-05-16", "hijriYear": 1448, "days": 4 },
+    { "kind": "hicriYilbasi",   "date": "2027-06-06", "hijriYear": 1449 },
+    { "kind": "asure",          "date": "2027-06-15", "hijriYear": 1449 },
+    { "kind": "mevlid",         "date": "2027-08-13", "hijriYear": 1449 },
+    { "kind": "ucAylar",        "date": "2027-11-29", "hijriYear": 1449 },
+    { "kind": "regaib",         "date": "2027-12-02", "hijriYear": 1449 },
+    { "kind": "mirac",          "date": "2027-12-24", "hijriYear": 1449 }
   ]
 }
