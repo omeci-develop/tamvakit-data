@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-03T12:00:00Z",
+  "generated": "2026-09-06T12:00:00Z",
   "authority": "diyanet",
   "source": "Diyanet İşleri Başkanlığı — Dinî Günler Listesi",
   "sourceUrl": "https://vakithesaplama.diyanet.gov.tr/dinigunler.php",
@@ -32,5 +32,77 @@
     { "kind": "ucAylar",        "date": "2027-11-29", "hijriYear": 1449 },
     { "kind": "regaib",         "date": "2027-12-02", "hijriYear": 1449 },
     { "kind": "mirac",          "date": "2027-12-24", "hijriYear": 1449 }
-  ]
+  ],
+  "info": {
+    "regaib": {
+      "source": "Diyanet İşleri Başkanlığı — Din İşleri Yüksek Kurulu",
+      "sourceUrl": "https://kurul.diyanet.gov.tr/tr/fetva/mubarek-gun-ve-geceler-ile-kandillerin-islamdaki-yeri-nedir/a43ec845-60e3-439a-08f5-08dd1c135351",
+      "text": {
+        "tr": {
+          "review": "belegt",
+          "body": "Regaib Kandili, Recep ayının ilk cuma gecesidir ve üç ayların (Recep, Şaban, Ramazan) başlangıcını haber verir. Diyanet, bu geceye özgü sahih bir namaz veya ibadet şekli bulunmadığını belirtir; müminler geceyi tövbe, dua, Kur'an tilaveti ve nafile ibadetle değerlendirir."
+        }
+      }
+    },
+    "mirac": {
+      "source": "Diyanet İşleri Başkanlığı — Din İşleri Yüksek Kurulu",
+      "sourceUrl": "https://kurul.diyanet.gov.tr/tr/fetva/mubarek-gun-ve-geceler-ile-kandillerin-islamdaki-yeri-nedir/a43ec845-60e3-439a-08f5-08dd1c135351",
+      "text": {
+        "tr": {
+          "review": "belegt",
+          "body": "Miraç Kandili, Recep ayının yirmi yedinci gecesidir. Hz. Peygamber'in Mescid-i Haram'dan Mescid-i Aksâ'ya götürüldüğü ve beş vakit namazın farz kılındığı gece olarak anılır. Bu gece nafile ibadet ve anma programlarıyla ihya edilir."
+        }
+      }
+    },
+    "berat": {
+      "source": "Diyanet İşleri Başkanlığı — Din İşleri Yüksek Kurulu",
+      "sourceUrl": "https://kurul.diyanet.gov.tr/tr/fetva/mubarek-gun-ve-geceler-ile-kandillerin-islamdaki-yeri-nedir/a43ec845-60e3-439a-08f5-08dd1c135351",
+      "text": {
+        "tr": {
+          "review": "belegt",
+          "body": "Berat Kandili, Şaban ayının on beşinci gecesidir; 'berat' kelimesi günahlardan kurtuluş anlamına gelir. Rivayetlere göre bu gece Allah'ın kullarının günahlarını bağışladığı bildirilir; müminler geceyi ibadetle, gündüzünü de oruçla değerlendirir."
+        }
+      }
+    },
+    "kadir": {
+      "source": "Diyanet İşleri Başkanlığı — Din İşleri Yüksek Kurulu",
+      "sourceUrl": "https://kurul.diyanet.gov.tr/tr/fetva/mubarek-gun-ve-geceler-ile-kandillerin-islamdaki-yeri-nedir/a43ec845-60e3-439a-08f5-08dd1c135351",
+      "text": {
+        "tr": {
+          "review": "belegt",
+          "body": "Kadir Gecesi, Kur'an-ı Kerim'in indirilmeye başlandığı gecedir ve Kur'an'da 'bin aydan hayırlı' olarak nitelenir. Çoğunlukla Ramazan'ın yirmi yedinci gecesi idrak edilir; kesin tarihi bildirilmemiş, son on gece içinde aranması tavsiye edilmiştir. Rivayete göre inanarak ve karşılığını Allah'tan umarak bu geceyi ibadetle geçirenin geçmiş günahları bağışlanır."
+        }
+      }
+    },
+    "mevlid": {
+      "source": "Diyanet İşleri Başkanlığı — Din İşleri Yüksek Kurulu",
+      "sourceUrl": "https://kurul.diyanet.gov.tr/tr/fetva/mubarek-gun-ve-geceler-ile-kandillerin-islamdaki-yeri-nedir/a43ec845-60e3-439a-08f5-08dd1c135351",
+      "text": {
+        "tr": {
+          "review": "belegt",
+          "body": "Mevlid Kandili, Hz. Peygamber'in doğum yıl dönümü olan Rebîülevvel ayının on ikinci gecesidir. Bu gece Kur'an tilaveti, dua ve Peygamber'in hayatını anma programlarıyla ihya edilir; nafile ibadet için bir vesile kabul edilir."
+        }
+      }
+    },
+    "asure": {
+      "source": "Diyanet İşleri Başkanlığı — Ankara İl Müftülüğü",
+      "sourceUrl": "https://ankara.diyanet.gov.tr/cankaya/sayfalar/contentdetail.aspx?ContentId=2214&MenuCategory=Kurumsal",
+      "text": {
+        "tr": {
+          "review": "belegt",
+          "body": "Aşure günü, kameri aylardan Muharrem'in onuncu günüdür. Hz. Peygamber bu günde oruç tutmayı teşvik etmiş, 'Aşure günü orucunun bir önceki yılın günahlarına kefaret olmasını Allah'tan umarım' buyurmuştur. Aynı ay, Hz. Hüseyin'in Kerbela'da şehit edilmesi sebebiyle Müslümanların ortak hafızasında büyük bir acıyı da taşır. Aşure aşı ise paylaşmanın ve dayanışmanın bir ifadesi olarak pişirilir."
+        }
+      }
+    },
+    "hicriYilbasi": {
+      "source": "Diyanet İşleri Başkanlığı — Ankara İl Müftülüğü",
+      "sourceUrl": "https://ankara.diyanet.gov.tr/cankaya/sayfalar/contentdetail.aspx?ContentId=2214&MenuCategory=Kurumsal",
+      "text": {
+        "tr": {
+          "review": "belegt",
+          "body": "Hicrî yılbaşı, Muharrem ayının birinci günüdür. 'Muharrem' saygıya değer, haram kılınmış anlamına gelir ve dört haram aydan biridir. Takvimin başlangıcı olarak Hz. Peygamber'in Mekke'den Medine'ye hicreti esas alınmış, bu uygulama Hz. Ömer döneminde kabul edilmiştir."
+        }
+      }
+    }
+  }
 }
