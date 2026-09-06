@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-06T12:00:00Z",
+  "generated": "2026-09-06T18:00:00Z",
   "authority": "diyanet",
   "source": "Diyanet İşleri Başkanlığı — Dinî Günler Listesi",
   "sourceUrl": "https://vakithesaplama.diyanet.gov.tr/dinigunler.php",
@@ -101,6 +101,26 @@
         "tr": {
           "review": "belegt",
           "body": "Hicrî yılbaşı, Muharrem ayının birinci günüdür. 'Muharrem' saygıya değer, haram kılınmış anlamına gelir ve dört haram aydan biridir. Takvimin başlangıcı olarak Hz. Peygamber'in Mekke'den Medine'ye hicreti esas alınmış, bu uygulama Hz. Ömer döneminde kabul edilmiştir."
+        }
+      }
+    },
+    "ucAylar": {
+      "source": "Diyanet İşleri Başkanlığı — Din İşleri Yüksek Kurulu",
+      "sourceUrl": "https://fetva.diyanet.gov.tr/tr/fetva/uc-aylarin-dindeki-yeri-ve-bu-aylarda-oruc-tutmanin-hukmu-nedir/0193c42d-6c6a-78f0-f3a0-7d8958e74fb0",
+      "text": {
+        "tr": {
+          "review": "belegt",
+          "body": "Üç Aylar, hicrî takvimin Recep, Şaban ve Ramazan aylarıdır ve 1 Recep'te başlar. Hz. Peygamber Recep ayı girince 'Allah'ım! Recep ve Şaban'ı bize mübarek kıl, bizi Ramazan'a ulaştır' diye dua etmiştir. Bu aylarda Ramazan orucu farz, Recep ve Şaban'da tutulan oruç ise nafiledir; bu iki ayı baştan sona oruçlu geçirmenin dinî bir dayanağı yoktur."
+        }
+      }
+    },
+    "arefeKurban": {
+      "source": "Diyanet İşleri Başkanlığı — Din İşleri Yüksek Kurulu",
+      "sourceUrl": "https://kurul.diyanet.gov.tr/tr/fetva/zilhicce-ayinda-ve-arefe-gununde-oruc-tutmanin-fazileti-nedir/0193c42d-6c41-77a3-e849-37debdd34cf6",
+      "text": {
+        "tr": {
+          "review": "belegt",
+          "body": "Arefe günü, Zilhicce ayının dokuzuncu, Kurban Bayramı'ndan bir önceki gündür; hac ibadetinde Arafat'ta vakfe bu gün yapılır. Hz. Peygamber, 'Arefe günü tutulan orucun önceki ve sonraki yılın günahlarına kefaret olmasını Allah'tan ümit ediyorum' buyurmuştur. Ancak hacda olanların, ibadetlerini aksatmamak için o gün oruç tutmamaları daha uygundur."
         }
       }
     }
