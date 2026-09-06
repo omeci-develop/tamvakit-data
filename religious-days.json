@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-06T18:00:00Z",
+  "generated": "2026-09-06T21:30:00Z",
   "authority": "diyanet",
   "source": "Diyanet İşleri Başkanlığı — Dinî Günler Listesi",
   "sourceUrl": "https://vakithesaplama.diyanet.gov.tr/dinigunler.php",
@@ -121,6 +121,46 @@
         "tr": {
           "review": "belegt",
           "body": "Arefe günü, Zilhicce ayının dokuzuncu, Kurban Bayramı'ndan bir önceki gündür; hac ibadetinde Arafat'ta vakfe bu gün yapılır. Hz. Peygamber, 'Arefe günü tutulan orucun önceki ve sonraki yılın günahlarına kefaret olmasını Allah'tan ümit ediyorum' buyurmuştur. Ancak hacda olanların, ibadetlerini aksatmamak için o gün oruç tutmamaları daha uygundur."
+        }
+      }
+    },
+    "ramazan": {
+      "source": "Diyanet İşleri Başkanlığı — Din İşleri Yüksek Kurulu",
+      "sourceUrl": "https://kurul.diyanet.gov.tr/tr/fetvalar/oruc/67525edd-20c2-4c22-8769-aeb000d961ed/ramazan-ayi/01933668-63a9-7f0a-7c5c-1d5919a8af0e",
+      "text": {
+        "tr": {
+          "review": "belegt",
+          "body": "Ramazan, hicrî ayların dokuzuncusu ve üç ayların sonuncusudur. Kur'an-ı Kerim bu ayda indirilmiş, oruç da bu ayda farz kılınmıştır. Ramazan orucu ergenlik çağına ulaşmış ve aklı yerinde her Müslümana farzdır; Ramazan günahlardan arınma, nefsi terbiye etme ve sosyal dayanışma ayı olarak anılır."
+        }
+      }
+    },
+    "arefeRamazan": {
+      "source": "Diyanet İşleri Başkanlığı — Din İşleri Yüksek Kurulu",
+      "sourceUrl": "https://kurul.diyanet.gov.tr/tr/fetva/bayram-gunlerinde-oruc-tutulur-mu/0193c42d-6d17-7546-6958-5372cf808769",
+      "text": {
+        "tr": {
+          "review": "belegt",
+          "body": "Ramazan Bayramı arifesi, Ramazan ayının son günüdür ve o gün hâlâ oruç tutulur. Ertesi gün, yani Şevval'in birinci günü, bir ay boyunca Allah için tutulan orucun ardından gelen 'genel iftar ziyafeti' hükmündeki Ramazan Bayramı'nın başlangıcıdır."
+        }
+      }
+    },
+    "ramazanBayrami": {
+      "source": "Diyanet İşleri Başkanlığı — Din İşleri Yüksek Kurulu",
+      "sourceUrl": "https://kurul.diyanet.gov.tr/tr/fetva/bayram-gunlerinde-oruc-tutulur-mu/0193c42d-6d17-7546-6958-5372cf808769",
+      "text": {
+        "tr": {
+          "review": "belegt",
+          "body": "Ramazan Bayramı, Şevval ayının ilk üç günüdür ve 'fıtır bayramı (iftar bayramı)' olarak da anılır: bir ay boyunca Allah için tutulan orucun ardından gelen 'genel iftar ziyafeti' hükmündedir. İlk günü, oruca son verilmesini simgeler; bu günlerde oruç tutmak, günler yeme, içme ve sevinç günleri olduğu için tahrîmen mekruhtur."
+        }
+      }
+    },
+    "kurbanBayrami": {
+      "source": "Diyanet İşleri Başkanlığı — Din İşleri Yüksek Kurulu",
+      "sourceUrl": "https://kurul.diyanet.gov.tr/tr/fetva/bayram-gunlerinde-oruc-tutulur-mu/0193c42d-6d17-7546-6958-5372cf808769",
+      "text": {
+        "tr": {
+          "review": "belegt",
+          "body": "Kurban Bayramı, Zilhicce ayının 10-13. günleri olmak üzere dört gündür. Allah için kurbanların kesildiği bu günler 'ziyafet günleri'dir; Hz. Peygamber teşrik günlerinin 'yeme, içme ve Allah'ı anma günleri' olduğunu belirtmiştir. Bu günlerde oruç tutmak tahrîmen mekruhtur."
         }
       }
     }
