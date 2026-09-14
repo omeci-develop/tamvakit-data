@@ -58,16 +58,21 @@ begrenzt.
 
 [`scripts/daten_wache.py`](scripts/daten_wache.py) prüft täglich
 ([`.github/workflows/daten-wache.yml`](.github/workflows/daten-wache.yml)), ob
-das **Ausgelieferte** noch trägt: Ist jedes Länder-Bündel jung genug, und deckt
-es heute plus die nächsten 14 Tage ab? Reißt eine der beiden Zusagen, entsteht
-ein Issue in diesem Repo.
+das **Ausgelieferte** noch trägt: Ist jedes Länder-Bündel jung genug, deckt es
+heute plus die nächsten 14 Tage ab, und steht jeder Ort aus dem Index
+überhaupt noch darin? Reißt eine dieser Zusagen, entsteht ein Issue in diesem
+Repo.
 
 **Warum es sie gibt.** Am 2026-09-14 verloren alle 1.200 deutschen Orte ihre
-amtlichen Zeiten: `all-DE.json` war seit dem 25.08. eingefroren, weil der
-Veröffentlichungs-Lauf im App-Repo nicht mehr startete. Es *gab* eine
-Alarmierung — aber nur für **rote** Läufe, und der Lauf war nicht rot, er lief
-gar nicht. Stille ist kein Fehlschlag. Deshalb prüft die Wache nicht den Job,
-sondern sein Ergebnis über HTTP, so wie eine ausgelieferte App es sieht.
+amtlichen Zeiten: `all-DE.json` war seit dem 25.08. eingefroren. Es *gab* eine
+Alarmierung — aber nur für **rote** Läufe, und der Veröffentlichungs-Lauf war
+nie rot: Erst startete er sechs Tage lang gar nicht (Abrechnung), dann brach er
+fünf Tage an einem Zwischenschritt ab, und danach lief er **grün und untätig**,
+weil seine Vorprüfung das Alter des Abrufs maß statt der Reichweite der Daten.
+Stille ist kein Fehlschlag — und ein grüner Lauf ist kein Ergebnis. Deshalb
+prüft die Wache nicht den Job, sondern sein Ergebnis über HTTP, so wie eine
+ausgelieferte App es sieht.
 
 Von Hand: `python3 scripts/daten_wache.py` (oder gegen eine andere Quelle mit
-`DATEN_BASIS=…`).
+`DATEN_BASIS=…`). Ihre Regeln selbst prüft `scripts/daten_wache_test.py`
+(ohne Netz, läuft im Workflow vorweg).
