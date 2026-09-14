@@ -47,8 +47,27 @@ als `HH:mm` **in Ortszeit** mit `greenwichMeanTimeZone` als UTC-Versatz:
 
 ## Aktualisierung
 
-Ein täglicher GitHub-Actions-Job im (privaten) App-Repo erneuert die ältesten
-Orte im Rahmen des Kontingents. Ein Block deckt 32 Tage ab und wird nach ~3
-Wochen erneuert; die Zahl gleichzeitig versorgbarer Orte ist dadurch begrenzt.
+Ein wöchentlicher GitHub-Actions-Job im (privaten) App-Repo erneuert die
+ältesten Orte im Rahmen des Kontingents. Ein Block deckt 32 Tage ab und wird
+nach ~3 Wochen erneuert; die Zahl gleichzeitig versorgbarer Orte ist dadurch
+begrenzt.
 
 **Diese Dateien werden maschinell geschrieben — bitte nicht von Hand ändern.**
+
+## Wache
+
+[`scripts/daten_wache.py`](scripts/daten_wache.py) prüft täglich
+([`.github/workflows/daten-wache.yml`](.github/workflows/daten-wache.yml)), ob
+das **Ausgelieferte** noch trägt: Ist jedes Länder-Bündel jung genug, und deckt
+es heute plus die nächsten 14 Tage ab? Reißt eine der beiden Zusagen, entsteht
+ein Issue in diesem Repo.
+
+**Warum es sie gibt.** Am 2026-09-14 verloren alle 1.200 deutschen Orte ihre
+amtlichen Zeiten: `all-DE.json` war seit dem 25.08. eingefroren, weil der
+Veröffentlichungs-Lauf im App-Repo nicht mehr startete. Es *gab* eine
+Alarmierung — aber nur für **rote** Läufe, und der Lauf war nicht rot, er lief
+gar nicht. Stille ist kein Fehlschlag. Deshalb prüft die Wache nicht den Job,
+sondern sein Ergebnis über HTTP, so wie eine ausgelieferte App es sieht.
+
+Von Hand: `python3 scripts/daten_wache.py` (oder gegen eine andere Quelle mit
+`DATEN_BASIS=…`).

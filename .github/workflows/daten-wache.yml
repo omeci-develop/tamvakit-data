@@ -1,0 +1,71 @@
+# Taegliche Wache auf das, was unter data.tamvakit.app ausgeliefert wird.
+#
+# **Warum hier und nicht im App-Repo.** Das App-Repo ist privat; dort zaehlt
+# jede Action-Minute gegen dasselbe Kontingent wie die CI. Genau daran ist die
+# Datenpipeline am 2026-09-14 gestorben: Die CI hatte das Kontingent
+# aufgebraucht, GitHub startete die Veroeffentlichungs-Laeufe nicht mehr, und
+# weil niemand hinsah, verloren alle 1.200 deutschen Orte ihre amtlichen
+# Zeiten. Dieses Repo ist **oeffentlich** — Actions sind hier kostenlos und
+# unbegrenzt. Eine Wache, die verhungern kann, ist keine.
+#
+# **Warum sie das Ergebnis prueft und nicht den Job.** Es *gab* eine
+# Alarmierung fuer rote Laeufe. Der Lauf war aber nie rot — er lief gar nicht.
+# Stille ist kein Fehlschlag. Diese Wache fragt deshalb nur: Liegt unter der
+# Adresse, die in jeder ausgelieferten App steht, brauchbares Material?
+name: daten-wache
+
+on:
+  schedule:
+    # Taeglich 06:12 UTC. Der Veroeffentlichungs-Lauf geht montags 03:17 —
+    # die Wache sieht also am selben Morgen nach, ob er etwas bewirkt hat.
+    - cron: '12 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  pruefen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Abdeckung der ausgelieferten Buendel pruefen
+        id: wache
+        run: |
+          set -o pipefail
+          python3 scripts/daten_wache.py | tee bericht.txt
+
+      - name: Befund in die Lauf-Zusammenfassung
+        if: always()
+        run: |
+          {
+            echo '## Abdeckung der ausgelieferten Daten'
+            echo
+            echo '```'
+            cat bericht.txt 2>/dev/null || echo '(kein Bericht — der Lauf brach vorher ab)'
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Hinweis anlegen, wenn die Abdeckung reisst
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LAUF: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          titel='Ausgelieferte Gebetszeiten decken nicht mehr ab'
+          offen=$(gh issue list --state open --search "$titel in:title" \
+                    --json number --jq '.[0].number // empty')
+          # Den Bericht einruecken waere falsch: Markdown setzte ihn dann als
+          # Code-Block mit vier Leerzeichen — deshalb der eigene Zaun unten.
+          text=$(printf '%s\n\n```\n%s\n```\n\n%s\n' \
+            "Befund vom $(date -u +%Y-%m-%d), Lauf: $LAUF" \
+            "$(cat bericht.txt 2>/dev/null || echo 'kein Bericht')" \
+            "Die App faellt dadurch auf die Einzelort-Dateien zurueck (ein volles Jahr je Ort) — sie schweigt also nicht, zahlt aber mit Datenvolumen und gibt die Stadt preis. Fast immer steht der Veroeffentlichungs-Lauf.")
+          if [ -n "$offen" ]; then
+            gh issue comment "$offen" --body "$text"
+          else
+            gh issue create --title "$titel" --body "$text"
+          fi
