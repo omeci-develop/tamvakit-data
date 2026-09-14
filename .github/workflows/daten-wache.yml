@@ -1,17 +1,19 @@
 # Taegliche Wache auf das, was unter data.tamvakit.app ausgeliefert wird.
 #
 # **Warum hier und nicht im App-Repo.** Das App-Repo ist privat; dort zaehlt
-# jede Action-Minute gegen dasselbe Kontingent wie die CI. Genau daran ist die
-# Datenpipeline am 2026-09-14 gestorben: Die CI hatte das Kontingent
-# aufgebraucht, GitHub startete die Veroeffentlichungs-Laeufe nicht mehr, und
-# weil niemand hinsah, verloren alle 1.200 deutschen Orte ihre amtlichen
-# Zeiten. Dieses Repo ist **oeffentlich** — Actions sind hier kostenlos und
-# unbegrenzt. Eine Wache, die verhungern kann, ist keine.
+# jede Action-Minute gegen dasselbe Kontingent wie die CI — und das war im
+# September 2026 zu 91 % verbraucht. Eine Wache, die verhungern kann, ist
+# keine. Dieses Repo ist **oeffentlich**, Actions sind hier kostenlos.
 #
-# **Warum sie das Ergebnis prueft und nicht den Job.** Es *gab* eine
-# Alarmierung fuer rote Laeufe. Der Lauf war aber nie rot — er lief gar nicht.
-# Stille ist kein Fehlschlag. Diese Wache fragt deshalb nur: Liegt unter der
-# Adresse, die in jeder ausgelieferten App steht, brauchbares Material?
+# **Warum sie das Ergebnis prueft und nicht den Job.** Am 2026-09-14 verloren
+# alle 1.200 deutschen Orte ihre amtlichen Zeiten. Es *gab* eine Alarmierung
+# fuer rote Laeufe — sie schlug nie an, weil der Lauf nacheinander aus drei
+# verschiedenen Gruenden nichts tat: sechs Tage gar nicht gestartet
+# (Abrechnung), fuenf Tage an Schritt 4 abgebrochen, und danach **gruen und
+# untaetig**, weil seine Vorpruefung das Alter des Abrufs maass statt der
+# Reichweite der Daten. Stille ist kein Fehlschlag — und ein gruener Lauf ist
+# kein Ergebnis. Diese Wache fragt deshalb nur: Liegt unter der Adresse, die in
+# jeder ausgelieferten App steht, brauchbares Material?
 name: daten-wache
 
 on:
@@ -31,6 +33,13 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+
+      # Die Regeln der Wache selbst, ohne Netz — Bruchteil einer Sekunde. Eine
+      # Wache, deren Regel niemand geprueft hat, ist eine Vermutung; und faellt
+      # sie hier durch, sagt der Befund unten nichts aus.
+      - name: Regeln der Wache pruefen
+        working-directory: scripts
+        run: python3 daten_wache_test.py
 
       - name: Abdeckung der ausgelieferten Buendel pruefen
         id: wache
