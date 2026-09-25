@@ -1,11 +1,11 @@
 [
   {
-    "id": 10412,
-    "name": "LAUCHHAMMER",
+    "id": 10413,
+    "name": "LAUDA",
     "country": "DE",
-    "region": "BRANDENBURG",
-    "lat": 51.4977774,
-    "lng": 13.7400618,
+    "region": "BADEN WURTTEMBERG",
+    "lat": 49.5703035,
+    "lng": 9.7027607,
     "fetched": "2026-08-15T15:43:38.021047Z",
     "priority": 0
   },
@@ -566,16 +566,6 @@
     "region": "AVUSTURYA",
     "lat": 46.8521,
     "lng": 14.5753,
-    "fetched": "2026-08-15T15:43:38.021047Z",
-    "priority": 0
-  },
-  {
-    "id": 11439,
-    "name": "HAAG (AMSTETTEN)",
-    "country": "AT",
-    "region": "AVUSTURYA",
-    "lat": 48.1196,
-    "lng": 15.1288,
     "fetched": "2026-08-15T15:43:38.021047Z",
     "priority": 0
   },
@@ -7634,8 +7624,8 @@
     "name": "DERNE(DORT.)",
     "country": "DE",
     "region": "NORDRHEIN-WESTFALEN",
-    "lat": 51.5957,
-    "lng": 7.6942,
+    "lat": 51.5688823,
+    "lng": 7.5218214,
     "fetched": "2026-08-15T15:43:38.021047Z",
     "priority": 0
   },
@@ -11470,12 +11460,12 @@
     "priority": 0
   },
   {
-    "id": 10413,
-    "name": "LAUDA",
+    "id": 10412,
+    "name": "LAUCHHAMMER",
     "country": "DE",
-    "region": "BADEN WURTTEMBERG",
-    "lat": 49.5703035,
-    "lng": 9.7027607,
+    "region": "BRANDENBURG",
+    "lat": 51.4977774,
+    "lng": 13.7400618,
     "fetched": "2026-08-15T15:43:38.021047Z",
     "priority": 0
   },
@@ -16894,8 +16884,8 @@
     "name": "WICKEDE (DORT.)",
     "country": "DE",
     "region": "NORDRHEIN-WESTFALEN",
-    "lat": 51.4992,
-    "lng": 7.8686,
+    "lat": 51.5323341,
+    "lng": 7.6108916,
     "fetched": "2026-08-15T15:43:38.021047Z",
     "priority": 0
   },
@@ -22930,12 +22920,12 @@
     "priority": 0
   },
   {
-    "id": 13055,
-    "name": "WITTELSHEIM",
+    "id": 13377,
+    "name": "WISSEMBOURG",
     "country": "FR",
     "region": "FRANSA",
-    "lat": 47.8091086,
-    "lng": 7.2402432,
+    "lat": 49.0365935,
+    "lng": 7.9445109,
     "fetched": "2026-08-15T15:43:38.021047Z",
     "priority": 0
   },
@@ -34360,12 +34350,12 @@
     "priority": 0
   },
   {
-    "id": 13377,
-    "name": "WISSEMBOURG",
+    "id": 13055,
+    "name": "WITTELSHEIM",
     "country": "FR",
     "region": "FRANSA",
-    "lat": 49.0365935,
-    "lng": 7.9445109,
+    "lat": 47.8091086,
+    "lng": 7.2402432,
     "fetched": "2026-08-15T15:43:38.021047Z",
     "priority": 0
   },
