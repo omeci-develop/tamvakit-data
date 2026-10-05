@@ -1,11 +1,11 @@
 [
   {
-    "id": 10413,
-    "name": "LAUDA",
+    "id": 10412,
+    "name": "LAUCHHAMMER",
     "country": "DE",
-    "region": "BADEN WURTTEMBERG",
-    "lat": 49.5703035,
-    "lng": 9.7027607,
+    "region": "BRANDENBURG",
+    "lat": 51.4977774,
+    "lng": 13.7400618,
     "fetched": "2026-08-15T15:43:38.021047Z",
     "priority": 0
   },
@@ -11460,12 +11460,12 @@
     "priority": 0
   },
   {
-    "id": 10412,
-    "name": "LAUCHHAMMER",
+    "id": 10413,
+    "name": "LAUDA",
     "country": "DE",
-    "region": "BRANDENBURG",
-    "lat": 51.4977774,
-    "lng": 13.7400618,
+    "region": "BADEN WURTTEMBERG",
+    "lat": 49.5703035,
+    "lng": 9.7027607,
     "fetched": "2026-08-15T15:43:38.021047Z",
     "priority": 0
   },
@@ -22920,12 +22920,12 @@
     "priority": 0
   },
   {
-    "id": 13377,
-    "name": "WISSEMBOURG",
+    "id": 13055,
+    "name": "WITTELSHEIM",
     "country": "FR",
     "region": "FRANSA",
-    "lat": 49.0365935,
-    "lng": 7.9445109,
+    "lat": 47.8091086,
+    "lng": 7.2402432,
     "fetched": "2026-08-15T15:43:38.021047Z",
     "priority": 0
   },
@@ -34350,12 +34350,12 @@
     "priority": 0
   },
   {
-    "id": 13055,
-    "name": "WITTELSHEIM",
+    "id": 13377,
+    "name": "WISSEMBOURG",
     "country": "FR",
     "region": "FRANSA",
-    "lat": 47.8091086,
-    "lng": 7.2402432,
+    "lat": 49.0365935,
+    "lng": 7.9445109,
     "fetched": "2026-08-15T15:43:38.021047Z",
     "priority": 0
   },
