@@ -94,7 +94,10 @@ def pruefe_land(land: str, heute: date, erwartet: list[dict] | None = None) -> l
     if isinstance(roh, str):
         try:
             erzeugt = datetime.fromisoformat(roh.replace("Z", "+00:00"))
-            alter = (datetime.now(timezone.utc) - erzeugt).days
+            # Gegen den Stichtag gemessen, nicht gegen die Uhr: Sonst altert
+            # der Selbsttest mit festem Datum und sperrt ab Tag elf die echte
+            # Pruefung aus (so geschehen ab 2026-09-25).
+            alter = (heute - erzeugt.astimezone(timezone.utc).date()).days
             if alter > MAX_ALTER_TAGE:
                 klagen.append(
                     f"{land}: seit {alter} Tagen nicht neu erzeugt "
